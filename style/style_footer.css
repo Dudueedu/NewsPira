@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #D87B25;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}

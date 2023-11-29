@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    font-family: 'Inter', sans-serif;
+    font-size: 62,5%;
+}
+body{
+    background-color: black;
+    color: white    ;
+}
+
+.logo{
+    max-width: 70rem;
+    margin: auto;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+h2{
+    font-size: 3rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+h3{
+    font-size: 2rem;
+    padding: 1rem;
+    
+}
+
+/* Filmes */
+
+.movies{
+    background-color: #D87B25;
+    max-width: 90%;
+    margin: auto;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 2rem 0;
+}
+
+.movieimg{
+    border: 1px solid #000000;
+    border-radius: 2rem;
+    width: fit-content;
+    height: fit-content;
+    width: calc(100% - 2rem);
+}
+
+h4{
+    font-size: 1rem;
+}
+
+.filme {
+    display: inline-block;
+    width: calc(25% - 2rem); /* Para exibir três filmes por linha */
+    margin: 1rem;
+    text-align: left;
+    vertical-align: top;
+    padding: 1rem;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    border-radius: 2rem;
+}
+
+.movietitle {
+    font-size: 1.5rem; /* Tamanho do título do filme */
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.movieprod,
+.movietext {
+    font-size: 0.8rem; /* Tamanho do texto menor */
+}
+
+
+/* Noticias */
+
+.news ,.noticiaresumo{
+    background-color: #D87B25;
+    max-width: 90%;
+    height: fit-content;
+    margin: auto;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+    text-align: justify;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 1rem 0;
+    margin-top: 5rem;
+}
+
+.noticiaresumo{
+    min-height: 20rem;
+}
+
+.newstitle{
+    justify-content: left;
+}
+
+.newstext{
+    display: block;
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+}
+
+.newsimg{
+    float: left;
+    border: transparent thin solid;
+    margin: 0px 10px 10px 10px;
+    width: 20rem;
+    height: 14rem;
+    max-width: 20rem;
+    max-height: 14rem;
+    border-radius: 20px;
+}
+
+/* classificados */
+
+.jobs ,.emprego{
+    background-color: #D87B25;
+    max-width: 90%;
+    height: fit-content;
+    margin: auto;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+    text-align: justify;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 1rem 0;
+    margin-top: 5rem;
+}
+
+.emprego{
+    min-height: 20rem;
+}
+
+.classtitle{
+    justify-content: left;
+}
+
+.classtext{
+    display: block;
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+}
+
+.classimg{
+    float: left;
+    border: transparent thin solid;
+    margin: 0px 10px 10px 10px;
+    width: 20rem;
+    height: 14rem;
+    max-width: 20rem;
+    max-height: 14rem;
+    border-radius: 20px;
+}

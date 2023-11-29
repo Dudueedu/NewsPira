@@ -1,0 +1,41 @@
+/* Estilos para o cabeçalho e barra de navegação */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+
+header {
+    background-color: #D87B25;
+    padding: 10px;
+}
+
+/* Estilização da barra de navegação */
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+ul li {
+    margin: 0 10px;
+}
+
+/* Estilos responsivos para dispositivos móveis */
+@media screen and (max-width: 768px) {
+    ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    ul li {
+        margin: 10px 0;
+    }
+}
